@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entities.Models
+{
+    public class Phones
+    {
+        [Key]
+        public int Id { get; set; }
+        
+        [Key]
+        public int IdAgency { get; set; }
+
+        [Key]
+        [MaxLength(30)]
+        public string phone { get; set; }
+
+        [ForeignKey("IdAgency")]
+        [InverseProperty("Phones_Agency")]
+        public Agency Agencia { get; set; }
+    }
+}

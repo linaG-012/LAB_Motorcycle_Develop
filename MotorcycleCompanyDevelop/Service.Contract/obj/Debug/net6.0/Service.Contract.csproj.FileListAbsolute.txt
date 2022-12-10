@@ -1,0 +1,12 @@
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\bin\Debug\net6.0\Service.Contract.deps.json
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\bin\Debug\net6.0\Service.Contract.dll
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\bin\Debug\net6.0\Service.Contract.pdb
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\Service.Contract.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\Service.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\Service.Contract.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\Service.Contract.AssemblyInfo.cs
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\Service.Contract.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\Service.Contract.dll
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\refint\Service.Contract.dll
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\Service.Contract.pdb
+C:\Users\user\OneDrive\Escritorio\MotorcycleCompany\MotorcycleCompany\Service.Contract\obj\Debug\net6.0\ref\Service.Contract.dll
