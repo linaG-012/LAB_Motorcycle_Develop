@@ -17,14 +17,14 @@ namespace Repository.Configuration
                 new Agency
                 {
                     Id = 1,
-                    Name = "Kevin",
+                    Name = "maria",
                     Direction = "Calle del recuerdo",
                     Poblation = "Santa Barbara"
                 },
                 new Agency
                 {
                     Id = 2,
-                    Name = "Jose",
+                    Name = "manuel",
                     Direction = "Calle de la soledad",
                     Poblation = "Santa Ana"
                 }
