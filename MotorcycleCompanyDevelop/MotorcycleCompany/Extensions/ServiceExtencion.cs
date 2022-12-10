@@ -24,6 +24,8 @@ namespace MotorcycleCompany.Extensions
             {
 
             });
+        //public static void ConfigureLoggerService(this IServiceCollection services) =>
+        // service.AddSingleton<ILoggerManager, LoggerManager();
         public static void ConfigureRepositoryManager(this IServiceCollection services) =>
         services.AddScoped<IRepositoryManager, RepositoryManager>();
 

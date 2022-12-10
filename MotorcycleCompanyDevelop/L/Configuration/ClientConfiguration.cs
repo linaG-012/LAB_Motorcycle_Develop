@@ -16,23 +16,33 @@ namespace Repository.Configuration
             builder.HasData(
                 new Client
                 {
-                    DNI = "1049794204",
-                    Name = "Kevin",
-                    Surname = "Moreno",
-                    SecondSurname = "Ramirez",
-                    Direction = "cr 82 #42 f 56 sur",
+                    DNI = "1000335604",
+                    Name = "Lina",
+                    Surname = "Guerrero",
+                    SecondSurname = "Cantor",
+                    Direction = "crra 16 este numero 36-95 ",
                     City = "Bogota",
-                    Phone = "3219250893"
+                    Phone = "3013870998"
                 },
                 new Client
                 {
-                    DNI = "23622563",
-                    Name = "Luz",
-                    Surname = "Banish",
-                    SecondSurname = "Sayns",
-                    Direction = "calle 13 #4-37",
-                    City = "Guateque",
-                    Phone = "3145463634"
+                    DNI = "2345656",
+                    Name = "Ana",
+                    Surname = "Bazquez",
+                    SecondSurname = "Gomez",
+                    Direction = "crra 96 #6-85 sur ",
+                    City = "Pasto",
+                    Phone = "3229760993"
+                },
+                new Client
+                {
+                    DNI = "1022927448",
+                    Name = "Alisson",
+                    Surname = "Hernandez",
+                    SecondSurname = "Cantor",
+                    Direction = "crra 25 #8-63 sur ",
+                    City = "santa marta",
+                    Phone = "3142030357"
                 }
 
            );
