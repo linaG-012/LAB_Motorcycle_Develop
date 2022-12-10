@@ -1,0 +1,24 @@
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\bin\Debug\net6.0\LoggerService.deps.json
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\bin\Debug\net6.0\LoggerService.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\bin\Debug\net6.0\LoggerService.pdb
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\bin\Debug\net6.0\LoggerService.deps.json
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\bin\Debug\net6.0\LoggerService.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\bin\Debug\net6.0\LoggerService.pdb
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll

@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "dc91dbd1-393c-46c8-a8b6-1949ee098f54": {
+      "ProjectGuid": "dc91dbd1-393c-46c8-a8b6-1949ee098f54",
+      "DisplayName": "Presentation",
+      "ColorIndex": 0
+    },
+    "510692e8-c707-4eb2-8997-17a7a16855af": {
+      "ProjectGuid": "510692e8-c707-4eb2-8997-17a7a16855af",
+      "DisplayName": "Contracts",
+      "ColorIndex": 1
+    },
+    "c0073816-3183-4562-ac80-da164bc8deef": {
+      "ProjectGuid": "c0073816-3183-4562-ac80-da164bc8deef",
+      "DisplayName": "MotorcycleCompany",
+      "ColorIndex": 2
+    },
+    "641b1879-b116-4f99-a626-fbe6b449b4d6": {
+      "ProjectGuid": "641b1879-b116-4f99-a626-fbe6b449b4d6",
+      "DisplayName": "Entities",
+      "ColorIndex": 3
+    },
+    "6be0b9c2-7218-4698-928a-7f4b951aca12": {
+      "ProjectGuid": "6be0b9c2-7218-4698-928a-7f4b951aca12",
+      "DisplayName": "Repository",
+      "ColorIndex": 4
+    },
+    "4cacbf41-5bcd-4ad2-94f5-1918d9aea000": {
+      "ProjectGuid": "4cacbf41-5bcd-4ad2-94f5-1918d9aea000",
+      "DisplayName": "Service.Contracts",
+      "ColorIndex": 5
+    },
+    "87cdc9bc-cf00-46c4-bf4b-e0f6ba8f3be4": {
+      "ProjectGuid": "87cdc9bc-cf00-46c4-bf4b-e0f6ba8f3be4",
+      "DisplayName": "Service",
+      "ColorIndex": 6
+    },
+    "0bdac184-7e8c-47d6-be1f-2f336de04a33": {
+      "ProjectGuid": "0bdac184-7e8c-47d6-be1f-2f336de04a33",
+      "DisplayName": "LoggerService",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

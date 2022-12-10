@@ -1,0 +1,34 @@
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Repository.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Entities.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Entities.pdb
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Contracts.dll
+C:\Repository Git\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Contracts.pdb
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Contracts.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Entities.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Contracts.pdb
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\bin\Debug\net6.0\Entities.pdb
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\User01\Downloads\Temporal API REST Motorcycle Company\MotorcycleCompany\MotorcycleCompany\Repository\obj\Debug\net6.0\ref\Repository.dll
