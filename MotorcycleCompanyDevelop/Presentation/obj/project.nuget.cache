@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QHM/SqF79MphIXCzkeg4IY7hCmXikJmIbkoJbDk1XZZxUTOfJFe9zh84revIfUaE6MxLE/6I09U4KqD/zA/Jvg==",
+  "dgSpecHash": "nZsEGwYY8C8VpLEetYsczOubvjm/Usi+/s+O2EBouxTRWlJKuEV2aXhkjj+0rIhyLwoM7t/jjPklQLvRYBoZQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Presentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\familia\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\familia\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

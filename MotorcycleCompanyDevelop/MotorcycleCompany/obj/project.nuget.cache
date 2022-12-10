@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G0z0ciFdYO3UcEaxInRBpae/Mctiu5KNZINbx41YoH3MHFSEu8yg5UwJm3sNISOqZn+nt5gRddwka3b6iLrCzQ==",
+  "dgSpecHash": "xqaFKhT8JyYCtxjXc8wNOA1phgbxu4rLANklyqgXkcF2nNqej78WwvK36XE7SJfATY3u1DDzZK94ptTHhitvTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\MotorcycleCompany\\MotorcycleCompany.csproj",
+  "projectFilePath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\MotorcycleCompany\\MotorcycleCompany.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\familia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\familia\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\LoggerService\\LoggerService.csproj": {}
+    "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\LoggerService\\LoggerService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\Contracts.csproj": {
+    "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\familia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\obj\\",
+        "outputPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\LoggerService\\LoggerService.csproj": {
+    "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\LoggerService\\LoggerService.csproj",
+        "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\familia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\LoggerService\\obj\\",
+        "outputPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\Contracts.csproj"
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj"
               }
             }
           }

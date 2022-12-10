@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s3VcI1/F/08HTvC/Dmj8YsUPkKoJ1n9bMt4BGOuT/3hFR+WRNepUIGRASIFEj2pTqQ/YObRQAfl4GbGU8tQHFA==",
+  "dgSpecHash": "AecYjd7vMGKiF8oCIhOro9J6ovZoNHmkZuOh0cRTFwveKGUDC0uAcrdxAEbq2rfBQZms54SCFLmPkCJxVoTHiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\LoggerService\\LoggerService.csproj",
+  "projectFilePath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\LoggerService\\LoggerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\familia\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512"
   ],

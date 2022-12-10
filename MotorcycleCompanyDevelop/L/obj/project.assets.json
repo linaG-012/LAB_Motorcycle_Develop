@@ -618,11 +618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\L\\Repository.csproj",
+      "projectUniqueName": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\L\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\L\\Repository.csproj",
+      "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\L\\Repository.csproj",
       "packagesPath": "C:\\Users\\familia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\L\\obj\\",
+      "outputPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\L\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -643,11 +643,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Contracts\\Contracts.csproj"
+            "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj"
             },
-            "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\familia\\Downloads\\API\\API\\API\\MotorcycleCompany\\Entities\\Entities.csproj"
+            "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
             }
           }
         }
