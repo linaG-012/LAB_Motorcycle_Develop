@@ -10,6 +10,8 @@ namespace Entities.Models
 {
     public class Agency
     {
+        public object name;
+
         [Key]
         [Column("AgencyId")]
         public int Id { get; set; }

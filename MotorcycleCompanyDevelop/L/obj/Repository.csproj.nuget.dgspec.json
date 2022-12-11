@@ -31,7 +31,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
