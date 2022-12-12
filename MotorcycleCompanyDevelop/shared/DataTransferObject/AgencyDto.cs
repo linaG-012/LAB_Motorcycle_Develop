@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace shared.DataTransferObject
 {
-    internal class AgencyDto
-    {
-    }
+    public record  AgencyDto (string Addres, string Neighborhood, string location, string name);
+    
 }
