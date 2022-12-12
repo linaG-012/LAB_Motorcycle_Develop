@@ -13,7 +13,7 @@ namespace Service
         private readonly IRepositoryManager repository;
         private readonly IloggerManager loggerManager;
 
-        public MotorcycleService(IRepositoryManager repository, IloggerManager loggerManager)
+        public MotorcycleService(IRepositoryManager repository, IloggerManager loggerManager, AutoMapper.IMapper mapper)
         {
             this.repository = repository;
             this.loggerManager = loggerManager;

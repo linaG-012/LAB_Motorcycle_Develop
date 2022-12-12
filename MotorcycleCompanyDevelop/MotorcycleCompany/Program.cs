@@ -13,7 +13,7 @@ builder.Services.ConfigureServiceManager();
 builder.Services.Configuremysqlcontext(builder.Configuration);
 builder.Services.AddControllers().AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
     .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler= ReferenceHandler.IgnoreCycles);
-
+builder.Services.AddAutoMapper(typeof(Program)); 
 
 //Learn more about configuring swagger/openAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddControllers();
