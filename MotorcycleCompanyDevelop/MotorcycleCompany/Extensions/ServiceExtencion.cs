@@ -19,7 +19,7 @@ namespace MotorcycleCompany.Extensions
                 );
         });
 
-        public static void configureIISIntegratio(this IServiceCollection services) =>
+        public static void configureIISIntegration(this IServiceCollection services) =>
             services.Configure<IISOptions>(options =>
             {
 

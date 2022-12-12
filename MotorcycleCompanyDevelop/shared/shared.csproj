@@ -6,12 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="NLog.Extensions.logging" Version="5.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Contracts\Contracts.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="NewFolder\"/>
+	</ItemGroup>
 
 </Project>
+ 
