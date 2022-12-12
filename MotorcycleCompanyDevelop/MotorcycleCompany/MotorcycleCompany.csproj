@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +32,7 @@
     <ProjectReference Include="..\Presentation\Presentation.csproj" />
     <ProjectReference Include="..\Service.Contract\Service.Contract.csproj" />
     <ProjectReference Include="..\Service\Service.csproj" />
+    <ProjectReference Include="..\shared\shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
