@@ -5,11 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Entities.Models;
 using Contracts;
+using shared.DataTransferObject;
+
 
 namespace Service.Contract
 {
     public interface IAgencyService
     {
-        IEnumerable<IAgency> GetAllAgencies(bool trackchanges);
+         //IEnumerable<Agency> GetAllAgencies(bool trackchanges);
+        IEnumerable<AgencyDto> GetAllAgencies(bool trackchanges);
+
     }
 }

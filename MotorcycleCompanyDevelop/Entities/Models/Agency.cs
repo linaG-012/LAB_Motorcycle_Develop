@@ -52,7 +52,8 @@ namespace Entities.Models
 
         [InverseProperty("Agencia")]
         public ICollection<Phones> Phones_Agency { get; set; }
-
-
+        public string location { get; set; }
+        public string Neighborhood { get; set; }
+        public string Addres { get; set; }
     }
 }

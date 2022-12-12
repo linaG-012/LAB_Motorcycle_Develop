@@ -1239,13 +1239,24 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Contracts": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Service.Contract.dll": {}
         },
         "runtime": {
           "bin/placeholder/Service.Contract.dll": {}
+        }
+      },
+      "shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/shared.dll": {}
         }
       }
     }
@@ -4099,6 +4110,11 @@
       "type": "project",
       "path": "../Service.Contract/Service.Contract.csproj",
       "msbuildProject": "../Service.Contract/Service.Contract.csproj"
+    },
+    "shared/1.0.0": {
+      "type": "project",
+      "path": "../shared/shared.csproj",
+      "msbuildProject": "../shared/shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

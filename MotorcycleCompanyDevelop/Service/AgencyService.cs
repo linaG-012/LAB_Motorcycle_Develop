@@ -7,6 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Service.Contract;
 using Entities.Models;
+using shared.DataTransferObject;
+using Microsoft.VisualBasic;
+using System.Xml.Linq;
+
 
 namespace Service
 {
@@ -21,13 +25,17 @@ namespace Service
             this.loggerManager = loggerManager;
         }
 
-        public IEnumerable<Agency> GetAllAgencies(bool trackchanges)
+        public IEnumerable<AgencyDto> GetAllAgencies(bool trackchanges)
         {
             try
             {
-                var agencies = repository.Agency.GetAllAgencies(trackchanges);
-                return agencies;
+                var agencies = repository.Agency.GetAllAgencies(trackchanges); //Recibo Models.Agency
 
+                //Transformar el modelo all DTO
+                var agenciesDto = agencies.Select(a => new AgencyDto(a.Addres, a.Neighborhood, a.location, a.Name ?? ""))
+                .ToList();
+
+                return agenciesDto; //retornamos el Dto
             }
             catch (Exception ex)
             {
@@ -36,9 +44,6 @@ namespace Service
             }
         }
 
-        IEnumerable<IAgency> IAgencyService.GetAllAgencies(bool trackchanges)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
