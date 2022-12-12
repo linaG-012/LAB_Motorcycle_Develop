@@ -28,64 +28,12 @@ namespace Service
             this.mapper = mapper;
         }
 
-
-        public AgencyDto GetAgency(Guid agencyId,bool trackchanges)
-        {
-
-
-            var agency = repository.Agency.GetAgency(agencyId, trackchanges);
-            if (agency == null)
-            {
-                throw new AgencyNotFoundExections(agencyId);
-            }
-
-            var agencyDto = mapper.Map<AgencyDto>(agency);
-            return agencyDto;
-
-
-        }
         public IEnumerable<AgencyDto> GetAllAgencies(bool trackchanges)
         {
-            
-            
-                var agencies = repository.Agency.GetAllAgencies(trackchanges); //Recibo Models.Agency
+            var agencies = repository.Agency.GetAllAgencies(trackchanges);
 
-                var agenciesDto = mapper.Map<IEnumerable<AgencyDto>>(agencies);
-                return agenciesDto; //retornamos el Dto
-            
-            
-        }
-
-        object IAgencyService.GetAgency(Guid id, bool trackChanges)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
-    [Serializable]
-    internal class AgencyNotFoundExections : Exception
-    {
-        private Guid agencyId;
-
-        public AgencyNotFoundExections()
-        {
-        }
-
-        public AgencyNotFoundExections(Guid agencyId)
-        {
-            this.agencyId = agencyId;
-        }
-
-        public AgencyNotFoundExections(string? message) : base(message)
-        {
-        }
-
-        public AgencyNotFoundExections(string? message, Exception? innerException) : base(message, innerException)
-        {
-        }
-
-        protected AgencyNotFoundExections(SerializationInfo info, StreamingContext context) : base(info, context)
-        {
+            var ageenciesdto = mapper.Map<IEnumerable<AgencyDto>>(agencies);
+            return ageenciesdto;
         }
     }
 }

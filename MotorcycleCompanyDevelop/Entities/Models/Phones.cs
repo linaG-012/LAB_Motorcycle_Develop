@@ -10,18 +10,19 @@ namespace Entities.Models
 {
     public class Phones
     {
-        [Key]
-        public int Id { get; set; }
-        
-        [Key]
-        public int IdAgency { get; set; }
 
         [Key]
+        public int Id { get; set; }
+
+        //[Key]
+        //public int IdAgency { get; set; }
+
+        //[Key]
         [MaxLength(30)]
         public string phone { get; set; }
 
-        [ForeignKey("IdAgency")]
-        [InverseProperty("Phones_Agency")]
-        public Agency Agencia { get; set; }
+        //public Agency Agencia { get; set; }
+
+        public Agency Agency { get; set; }
     }
 }

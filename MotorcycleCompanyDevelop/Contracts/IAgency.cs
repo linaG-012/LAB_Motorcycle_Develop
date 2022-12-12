@@ -12,7 +12,7 @@ namespace Contracts
     public interface IAgency
     {
         //IEnumerable<Agency> GetAllAgencies(bool trackchanges);
-        IEnumerable<AgencyDto> GetAllAgencies(bool trackChanges);
-        Agency GetAgency(Guid agencyId, bool trackChanges);
+        IEnumerable<Agency> GetAllAgencies(bool trackChanges);
+        
     }
 }

@@ -1,0 +1,12 @@
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\bin\Debug\net6.0\shared.deps.json
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\bin\Debug\net6.0\shared.dll
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\bin\Debug\net6.0\ref\shared.dll
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\bin\Debug\net6.0\shared.pdb
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\shared.csproj.AssemblyReference.cache
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\shared.AssemblyInfoInputs.cache
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\shared.AssemblyInfo.cs
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\shared.csproj.CoreCompileInputs.cache
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\shared.dll
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\ref\shared.dll
+C:\LAB-MOTORCYCLE\LAB_Motorcycle_Develop\MotorcycleCompanyDevelop\shared\obj\Debug\net6.0\shared.pdb

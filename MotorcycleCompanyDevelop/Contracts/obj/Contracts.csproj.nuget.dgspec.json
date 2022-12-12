@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {}
+    "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {
+    "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\familia\\.nuget\\packages\\",
-        "outputPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\obj\\",
+        "projectPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Ambiente\\.nuget\\packages\\",
+        "outputPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ambiente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
+              "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
               },
-              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj": {
-                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj"
+              "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj": {
+                "projectPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj"
               }
             }
           }
@@ -56,8 +52,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -66,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
+    "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\familia\\.nuget\\packages\\",
-        "outputPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\obj\\",
+        "projectPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Ambiente\\.nuget\\packages\\",
+        "outputPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ambiente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,8 +106,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -125,25 +115,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj": {
+    "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj",
+        "projectUniqueName": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj",
         "projectName": "shared",
-        "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj",
-        "packagesPath": "C:\\Users\\familia\\.nuget\\packages\\",
-        "outputPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\obj\\",
+        "projectPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj",
+        "packagesPath": "C:\\Users\\Ambiente\\.nuget\\packages\\",
+        "outputPath": "C:\\LAB-MOTORCYCLE\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ambiente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,8 +160,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -184,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

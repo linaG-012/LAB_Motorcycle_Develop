@@ -26,18 +26,6 @@ namespace Presentation.Controllers
             var agencies = _Service.AgencyService.GetAllAgencies(trackchanges: false);
             return Ok(agencies);
         }
-
-        [HttpGet("{id:guid}")]
-        public IActionResult GetAgency(Guid id )
-        {
-            
-            var agency = _Service.AgencyService.GetAgency(id,trackChanges: false);
-            return Ok(agency);
-        }
-
-        private IActionResult Ok(IEnumerable<AgencyDto> agencies)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

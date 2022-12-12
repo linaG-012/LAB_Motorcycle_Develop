@@ -19,10 +19,10 @@ namespace Repository
 
         }
 
-        public IEnumerable<Agency> GetAllAgencies(bool trackchanges) =>
-            FindAll(trackchanges).Include("phones")
-            .OrderBy(a => a.Name)
-            .ToList();
+
+        public IEnumerable<Agency> GetAllAgencies(bool trackChanges) => FindAll(trackChanges)
+           .ToList();
+
         //implementation
     }
 }

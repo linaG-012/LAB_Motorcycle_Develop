@@ -12,8 +12,7 @@ namespace Service.Contract
 {
     public interface IAgencyService
     {
-        object GetAgency(Guid id, bool trackChanges);
-
+       
         //IEnumerable<Agency> GetAllAgencies(bool trackchanges);
         IEnumerable<AgencyDto> GetAllAgencies(bool trackchanges);
 

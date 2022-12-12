@@ -5,20 +5,17 @@ namespace LoggerService
 {
     public class LoggerManager : IloggerManager
     {
-        private static  ILogger Logger = LogManager.GetCurrentClassLogger();
+        private static readonly  ILogger Logger = LogManager.GetCurrentClassLogger();
 
         public LoggerManager()
         {
 
         }
 
-        public void LogDebug(string message) => Logger.Debug(message);
-        public void LogError(string message) => Logger.Error(message);
         public void LogInfo(string message) => Logger.Info(message);
         public void LogWarn(string message) => Logger.Warn(message);
-        
-        
-
+        public void LogDebug(string message) => Logger.Debug(message);
+        public void LogError(string message) => Logger.Error(message);
 
 
     }
