@@ -6,12 +6,5 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-      <Folder Include="DataTransferObject\" />
- 
-<ItemGroup>
-    <Compile Remove="NewFolder\**" />
-    <EmbeddedResource Remove="NewFolder\**" />
-    <None Remove="NewFolder\**" />
-  </ItemGroup>
 </Project>
  

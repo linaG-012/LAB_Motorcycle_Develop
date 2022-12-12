@@ -8,9 +8,16 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    public class Agency
+    [Table("Agency")]
+    public partial class Agency
     {
-        public object name;
+        public Agency()
+        {
+            Phones= new HashSet<Phones>();
+            Rents = new HashSet<Rent>();
+
+
+        }
 
         [Key]
         [Column("AgencyId")]
@@ -26,9 +33,13 @@ namespace Entities.Models
 
         [Required(ErrorMessage = "Agency poblation is required field")]
         [MaxLength(60, ErrorMessage = "Maximun lenght for the poblation is 60 characters")]
-        public  string Poblation { get; set; }
+        public string Poblation { get; set; }
 
+        [InverseProperty("Agency")]
+        public virtual ICollection<Phones> Phones { get; set; }
 
+        [InverseProperty("Agency")]
+        public virtual ICollection<Rent> Rents  { get; set; }
 
 
         [InverseProperty("Agencia")]
