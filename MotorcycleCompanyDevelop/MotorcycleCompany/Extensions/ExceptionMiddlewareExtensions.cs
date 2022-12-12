@@ -1,6 +1,37 @@
-﻿namespace MotorcycleCompany.Extensions
+﻿using Contracts;
+using Entities.Models.ErrorModel;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
+using System.Net;
+
+namespace MotorcycleCompany.Extensions
 {
-    public class ExceptionMiddlewareExtensions
+    public static class ExceptionMiddlewareExtensions
     {
+        public static void ConfigureExceptionHandler (this WebApplication app, IloggerManager logger)
+        {
+            app.UseExceptionHandler(appError =>
+            {
+                appError.Run(async context => { context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                    context.Response.ContentType = "application/json";
+                    var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
+                    if (contextFeature != null)
+                    {
+                        context.Response.StatusCode = ContextFeature.Error switch
+                        {
+                            NotFoundException => StatusCodes.Status404NotFound,
+                           _ => StatusCodes.Status500InternalServerError
+                        };
+
+                        logger.LogError($"Something went wrong: {contextFeature.Error}");
+                        await context.Response.WriteAsync(new ErrorDetails()
+                        {
+                            StatusCode = context.Response.StatusCode, Message = "Internal Server Error.",
+                        }.ToString());
+                    }
+                
+                });
+            });
+        }        
     }
 }

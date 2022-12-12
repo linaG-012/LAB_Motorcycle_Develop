@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
+              },
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj"
               }
             }
           }

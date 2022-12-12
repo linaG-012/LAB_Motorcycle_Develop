@@ -11,7 +11,7 @@ using shared.DataTransferObject;
 using Microsoft.VisualBasic;
 using System.Xml.Linq;
 using AutoMapper;
-
+using System.Runtime.Serialization;
 
 namespace Service
 {
@@ -28,26 +28,64 @@ namespace Service
             this.mapper = mapper;
         }
 
+
+        public AgencyDto GetAgency(Guid agencyId,bool trackchanges)
+        {
+
+
+            var agency = repository.Agency.GetAgency(agencyId, trackchanges);
+            if (agency == null)
+            {
+                throw new AgencyNotFoundExections(agencyId);
+            }
+
+            var agencyDto = mapper.Map<AgencyDto>(agency);
+            return agencyDto;
+
+
+        }
         public IEnumerable<AgencyDto> GetAllAgencies(bool trackchanges)
         {
-            try
-            {
+            
+            
                 var agencies = repository.Agency.GetAllAgencies(trackchanges); //Recibo Models.Agency
-
-                //Transformar el modelo all DTO
-                //var agenciesDto = agencies.Select(a => new AgencyDto(a.Addres, a.Neighborhood, a.location, a.Name ?? ""))
-                //.ToList();
 
                 var agenciesDto = mapper.Map<IEnumerable<AgencyDto>>(agencies);
                 return agenciesDto; //retornamos el Dto
-            }
-            catch (Exception ex)
-            {
-                loggerManager.LogError($"something went wrong in the[nameof(GetAllAgencies)    servicie method {ex}");
-                throw;
-            }
+            
+            
         }
 
-        
+        object IAgencyService.GetAgency(Guid id, bool trackChanges)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    [Serializable]
+    internal class AgencyNotFoundExections : Exception
+    {
+        private Guid agencyId;
+
+        public AgencyNotFoundExections()
+        {
+        }
+
+        public AgencyNotFoundExections(Guid agencyId)
+        {
+            this.agencyId = agencyId;
+        }
+
+        public AgencyNotFoundExections(string? message) : base(message)
+        {
+        }
+
+        public AgencyNotFoundExections(string? message, Exception? innerException) : base(message, innerException)
+        {
+        }
+
+        protected AgencyNotFoundExections(SerializationInfo info, StreamingContext context) : base(info, context)
+        {
+        }
     }
 }

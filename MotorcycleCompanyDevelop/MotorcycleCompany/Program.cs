@@ -1,48 +1,66 @@
+using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using MotorcycleCompany.Extensions;
+using NLog;
 using System.Text.Json.Serialization;
 
-var builder = WebApplication.CreateBuilder(args);
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+        // Add services to the container.
+        LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
-builder.Services.ConfigureCors();
-builder.Services.configureIISIntegration();
-builder.Services.ConfigureRepositoryManager();
-builder.Services.ConfigureServiceManager();
-builder.Services.Configuremysqlcontext(builder.Configuration);
-builder.Services.AddControllers().AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
-    .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler= ReferenceHandler.IgnoreCycles);
-builder.Services.AddAutoMapper(typeof(Program)); 
 
-//Learn more about configuring swagger/openAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-var app = builder.Build();
+        builder.Services.ConfigureCors();
+        builder.Services.configureIISIntegration();
+        builder.Services.ConfigureRepositoryManager();
+        builder.Services.ConfigureServiceManager();
+        builder.Services.Configuremysqlcontext(builder.Configuration);
+        builder.Services.AddControllers().AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
+            .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+        builder.Services.AddAutoMapper(typeof(Program));
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-    app.UseDeveloperExceptionPage();
-else
-    app.UseHsts();
+        //Learn more about configuring Swagger/openAPI at https://aka.ms/aspnetcore/swashbuckle
+        
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
 
-app.UseHttpsRedirection();
+        var app = builder.Build();
 
-app.UseStaticFiles();
+        var logger = app.Services.GetRequiredService<IloggerManager>();
+        app.ConfigureExceptionHandler(logger);
+        // Configure the HTTP request pipeline.
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+            app.UseHsts();
 
-app.UseAuthorization();
+        }
 
-//app.Run(async context =>
-//{
-//    await context.Response.WriteAsync("Hola desde el middleware personalizado");
 
-//app.Use(async (context, next) =>
-//{
-//    Console.WriteLine($"Hola desde el middleware personalizado");
-//    await next.Invoke();
-//    Console.WriteLine($"Hola desde el middleware personalizado");
-//});
+        app.UseHttpsRedirection();
 
-app.MapControllers();
+        app.UseStaticFiles();
 
-app.Run();
+        app.UseAuthorization();
+
+        //app.Run(async context =>
+        //{
+        //    await context.Response.WriteAsync("Hola desde el middleware personalizado");
+
+        //app.Use(async (context, next) =>
+        //{
+        //    Console.WriteLine($"Hola desde el middleware personalizado");
+        //    await next.Invoke();
+        //    Console.WriteLine($"Hola desde el middleware personalizado");
+        //});
+
+        app.MapControllers();
+
+        app.Run();
+    }
+}

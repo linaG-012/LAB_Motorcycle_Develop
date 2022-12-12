@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
+              },
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj"
               }
             }
           }
@@ -226,6 +229,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
+              },
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\L\\Repository.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\L\\Repository.csproj"
               },
@@ -273,6 +279,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -470,6 +480,9 @@
             "projectReferences": {
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
               },
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Service.Contract\\Service.Contract.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Service.Contract\\Service.Contract.csproj"

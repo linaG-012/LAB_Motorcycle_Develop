@@ -6,12 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Service.Contract;
 using Contracts;
+using shared.DataTransferObject;
 
 namespace Presentation.Controllers
 {
     [Route ("api/[controller]")]
     [ApiController]
-    public  class AgencyController
+    public  class AgencyController : ControllerBase 
     {
         private readonly IServiceManager _Service;
 
@@ -21,23 +22,20 @@ namespace Presentation.Controllers
         [HttpGet]
         public IActionResult GetAgencies()
         {
-            try
-            {
-                var agencies = _Service.AgencyService.GetAllAgencies(trackchanges: false);
-                return Ok(agencies);
-            }
-            catch (Exception)
-            {
-                return StatusCode(500, "internal server Error");
-            }
+            //throw new Exception("Exception");
+            var agencies = _Service.AgencyService.GetAllAgencies(trackchanges: false);
+            return Ok(agencies);
         }
 
-        private IActionResult Ok(IEnumerable<IAgency> agencies)
+        [HttpGet("{id:guid}")]
+        public IActionResult GetAgency(Guid id )
         {
-            throw new NotImplementedException();
+            
+            var agency = _Service.AgencyService.GetAgency(id,trackChanges: false);
+            return Ok(agency);
         }
 
-        private IActionResult StatusCode(int v1, string v2)
+        private IActionResult Ok(IEnumerable<AgencyDto> agencies)
         {
             throw new NotImplementedException();
         }

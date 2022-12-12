@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
+              },
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\shared\\shared.csproj"
               }
             }
           }
@@ -225,6 +228,9 @@
             "projectReferences": {
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Contracts\\Contracts.csproj"
+              },
+              "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Entities\\Entities.csproj"
               },
               "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Service.Contract\\Service.Contract.csproj": {
                 "projectPath": "C:\\Appi_2\\LAB_Motorcycle_Develop\\MotorcycleCompanyDevelop\\Service.Contract\\Service.Contract.csproj"
